@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #0B0D10;
+            font-family: Arial, sans-serif;
+            color: #fff;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 500px;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .link {
+            display: block;
+            padding: 16px 20px;
+            border: 1px solid #333;
+            border-radius: 10px;
+            background: #15181D;
+            color: #fff;
+            text-decoration: none;
+            font-size: 17px;
+            transition: 0.2s ease;
+        }
+
+        .link:hover {
+            background: #22262D;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="container">
+        <h1>Meus Links</h1>
+
+        <div class="links">
+            <a class="link" href="identidade.html" target="_blank">
+                identidade
+            </a>
+
+            <a class="link" href="nacional.html" target="_blank">
+                nacional
+            </a>
+
+            <a class="link" href="local.html" target="_blank">
+                local
+            </a>
+        </div>
+    </main>
+
+</body>
+</html>
